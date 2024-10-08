@@ -1,17 +1,24 @@
-import React from  "react";
-import {Link} from"react-router-dom";
+import React from "react";
+//to use link element instead of anchor tag instad href to use to to call the component
+import { Link } from "react-router-dom";
+import "./home.css";
 const Home = () => {
   return (
-    <div>
-       <h1>welcome to learning page</h1>
-        <p>dont you have acount create a new account bu sign up</p>
+    <div className="box">
+      <h1>welcome to learning page</h1>
+      <h3>Train your mind to tackle the problems</h3>
+      <div className="buttons">
         <button>
-          <Link to="/login">sign in </Link>
+          <Link to="/login" className="links">
+            sign in
+          </Link>
         </button>
         <button>
-          <Link to="/register">sign up</Link>
+          <Link to="/register" className="links">
+            sign up
+          </Link>
         </button>
-      
+      </div>
     </div>
   );
 };

@@ -1,0 +1,41 @@
+.register-home {
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    height: 85vh;
+    background-color: red;
+    overflow-x: hidden;
+  }
+  .form {
+    width: 350px;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: grey;
+    border-radius: 15px;
+  }
+  .inputs {
+    min-width: 90%;
+    padding: 8px 0;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+    padding-left: 15px;
+    margin: 15px 0;
+  }
+  label {
+    width: 85%;
+  
+    font-size: 12px;
+  }
+  button {
+    margin: 10px 35px;
+    padding: 5px 35px;
+    border-radius: 15px;
+  }
+  

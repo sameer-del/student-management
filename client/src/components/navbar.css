@@ -1,0 +1,34 @@
+.navbar-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333; /* Adjust to your color preference */
+  color: white;
+  padding: 10px 0;
+  height: 18vh;
+  z-index: 1000; /* Ensure it stays on top */
+}
+.navbar-head img {
+  margin-left: 150px;
+  width: 100px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 300px;
+}
+
+.nav-link {
+  display: flex;
+
+  margin: 0px 25px;
+  color: black;
+  text-transform: uppercase;
+  font-size: 23px;
+  font-weight: bold;
+}

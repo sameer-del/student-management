@@ -1,0 +1,27 @@
+.box {
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+  height: 85vh;
+  background-color: red;
+  overflow-x: hidden;
+}
+.box h1 {
+  font-size: 58px;
+}
+
+.box h3 {
+  font-size: 22px;
+}
+.buttons button {
+  margin: 10px 35px;
+  padding: 5px 35px;
+  border-radius: 15px;
+}
+.links {
+  text-decoration: none;
+  color: black;
+}
