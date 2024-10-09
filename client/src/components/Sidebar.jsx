@@ -2,7 +2,7 @@ import React from "react";
 
 const Sidebar = () => {
   return <div>build your knowledges!
-    <h1>hello</h1>
+    <h1>hello all</h1>
     <h2>Harshath.I</h2>
   </div>;
 };
