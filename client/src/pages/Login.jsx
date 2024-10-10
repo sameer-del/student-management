@@ -22,7 +22,7 @@ const Signin = () => {
         toast.error(response.data.error);
       } else {
         toast.success("Login successful");
-        navigate("/"); // Redirect to the home page or wherever you want
+        navigate("/dashboard"); // Redirect to the home page or wherever you want
       }
     } catch (error) {
       console.error(error);
