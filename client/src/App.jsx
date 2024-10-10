@@ -6,12 +6,14 @@ import Register from "./pages/Register";
 import axios from "axios";
 import "./App.css";
 import { Toaster } from "react-hot-toast";
+import Sidebar from "./components/Sidebar";
 axios.defaults.baseURL = "http://localhost:8000";
 axios.defaults.withCredentials = true;
 function App() {
   return (
     <div className="app-container">
       <Navbar />
+      <Sidebar />
       <Toaster position="bottom-right" toastOptions={{ duration: 5000 }} />
       <div className="content">
         <Routes>

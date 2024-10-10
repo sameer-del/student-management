@@ -1,7 +1,8 @@
 /* App.css */
 body {
   margin: 0;
-  font-family: Arial, sans-serif; /* Add your preferred font */
+  font-family: Arial, sans-serif;
+  position: relative; /* Add your preferred font */
 }
 
 .app-container {
@@ -19,11 +20,38 @@ body {
   padding: 10px 0;
   z-index: 1000; /* Ensure it stays on top */
 }
+.sidebar {
+  position: fixed;
+  top: 140px;
+  width: 200px;
+  left: 0;
+  height: 100vh;
+  background-color: #0b192c; /* Adjust to your color preference */
+  color: white;
+  padding: 10px 0;
+  z-index: 1000;
+}
+.side-links {
+  text-decoration: none;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px 20px;
+  background-color: #0b192c;
+  border: 2px solid #ddd;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 700;
+}
 
 .content {
   flex: 1;
   margin-top: 100px;
-
-  overflow-y: auto;
+  width: 90%;
+  margin-left: 10%;
+  overflow-y: hidden;
+  overflow-x: hidden;
   background-color: #f8f9fa;
 }
